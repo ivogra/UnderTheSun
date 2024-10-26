@@ -3,3 +3,35 @@ body {
     background-image: url("/img/Background_home.jpg");
     background-size: cover;
 }
+
+main {
+    display:flex;
+    place-items: center;
+    flex-direction: column;
+}
+
+main h2 {
+    font-size: 1.6em;
+    margin-top: 150px;
+    width: 40%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+main p {
+    width: 30%;
+    margin-top: 170px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    main h2 {
+        width: 100%;
+    }
+
+    main p {
+        width: 100%;
+        margin-top: 300px;
+    }
+}

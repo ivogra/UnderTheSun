@@ -13,6 +13,10 @@ ul li:hover {
     background: black;
 }
 
+ul li a {
+    text-decoration: none;
+}
+
 .burger-icon {
     display: none;
     flex-direction: column;
