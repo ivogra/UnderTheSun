@@ -1,0 +1,47 @@
+body {
+    background-image: url("/img/Background_kontakt.jpg");
+    background-size: cover;
+}
+
+.contact-form {
+    margin-top: 200px;
+    display:flex;
+    place-items: center;
+    flex-direction: column;
+}
+
+.flex-container-1 {
+    width: 50%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.flex-container-2 {
+    width: 50%;
+}
+
+.flex-container-2 textarea {
+    width: 100%;
+    resize: none;
+}
+
+.form-container {
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .flex-container-1 {
+        flex-direction: column;
+    }
+    .contact-form {
+        flex-direction: column;
+    }
+
+    .contact-form label {
+        margin-bottom: 10px;
+    }
+
+    .contact-form input {
+        margin-bottom: 20px;
+    }
+}

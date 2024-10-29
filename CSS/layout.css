@@ -4,6 +4,10 @@
     align-items: center;
 }
 
+body {
+    font-family: Helvetica, sans-serif;
+}
+
 ul {
     list-style: none;
 }
