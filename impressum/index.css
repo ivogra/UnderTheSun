@@ -1,0 +1,18 @@
+.impressum {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+.impressum > p {
+    flex: 1 1 50%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .impressum > p {
+        flex: 1 1 100%;
+    }
+}
