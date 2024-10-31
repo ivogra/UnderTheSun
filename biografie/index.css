@@ -1,0 +1,32 @@
+body {
+    background-image: url("../img/PXL_20241009_100210891.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.biographie {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.biographie .column {
+    flex: 1;
+    padding: 10px;
+}
+
+.heading {
+    margin-top: 120px;
+}
+
+.heading-con {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+@media (max-width: 768px) {
+    .biographie .column {
+        flex: 100%;
+    }
+}
