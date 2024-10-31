@@ -69,3 +69,13 @@ button.next {
     place-items: center;
     margin-top: 150px;
 }
+
+@media (max-width: 480px) {
+    .carousel-item img {
+        width: 90%;
+    }
+
+    button {
+        padding: 6px;
+    }
+}
