@@ -4,6 +4,10 @@
     align-items: center;
 }
 
+.title {
+    text-decoration: none;
+}
+
 body {
     font-family: Helvetica, sans-serif;
 }
