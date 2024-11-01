@@ -3,6 +3,33 @@ body {
     background-size: cover;
 }
 
+input, textarea {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+.form-group {
+    width: 100%;
+    display: flex;
+    place-items: center;
+}
+
+.form-group button {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-left: 40%;
+}
+
 .contact-form {
     margin-top: 200px;
     display:flex;
@@ -11,13 +38,17 @@ body {
 }
 
 .flex-container-1 {
-    width: 50%;
+    width: 100%;
     display:flex;
     justify-content: space-between;
 }
 
+.emamamil {
+    margin-left: 30px;
+}
+
 .flex-container-2 {
-    width: 50%;
+    width: 100%;
 }
 
 .flex-container-2 textarea {
@@ -33,6 +64,11 @@ body {
     .flex-container-1 {
         flex-direction: column;
     }
+
+    .emamamil {
+        margin-left: 0;
+    }
+
     .contact-form {
         flex-direction: column;
     }
