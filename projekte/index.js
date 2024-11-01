@@ -13,12 +13,8 @@ function showSlide(index) {
     document.querySelector('.carousel-images').style.transform = `translateX(${offset}%)`;
 }
 
-function nextSlide() {
-    showSlide(currentIndex + 1);
-}
-
-function prevSlide() {
-    showSlide(currentIndex - 1);
+function switchSlide(next) {
+    next ? showSlide(currentIndex + 1) : showSlide(currentIndex - 1);
 }
 
 showSlide(currentIndex);
