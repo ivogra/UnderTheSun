@@ -43,6 +43,10 @@ input:focus, textarea:focus {
     justify-content: space-between;
 }
 
+.contact-form {
+    margin-top: 140px;
+}
+
 .emamamil {
     margin-left: 30px;
 }
