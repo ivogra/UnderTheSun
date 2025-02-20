@@ -1,0 +1,5 @@
+services:
+    website:
+        image: git-registry.gibb.ch/igr146031/modul-347-docker/ivo-graber-website:v1
+        ports:
+          - "80:80"
